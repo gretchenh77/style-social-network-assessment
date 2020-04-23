@@ -1,8 +1,14 @@
 * {
     box-sizing: border-box;
 }
+
+
 body {
     background-color: lightgray;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
 }
 
 .header {
@@ -27,7 +33,6 @@ body {
     position: relative;
     top: 120px;
     left: 210px;
-    font-family: sans-serif;
     font-size: 18px;
     color: white;
 }
@@ -58,12 +63,10 @@ body {
     font-weight: bolder;
 }
 
-
 .float-right-box {
     position: relative;
     float: right;
 }
-
 
 nav {
     position: relative;
@@ -74,40 +77,113 @@ nav {
     margin: 0 auto;
 }
 
-
 nav li {
     list-style: none;
     display: inline;
 }     
 
-
 nav button {
     top: 10px;
     width: 15%;
     float: right;
-    font-size: 22px;
+    font-size: 20px;
     border-radius: 10%;
     padding: 2%;
     box-shadow: 1px 0px lightgrey;
-
-    
 }
-
 
 #timeline-button {
     font-weight: bold;
+
+}
+
+.main {
+    position: relative;
+    top: 70px;
+    width: 850px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.left-col {
+    position: relative;
+    float: left;
+    width: 323px;
+    height: 100%;
+    border: 5px solid lightgrey;
+    background-color: lightgrey;
+}
+
+.right-col {
+    position: relative;
+    float: right;
+    width: 507px;
+    height: 100%;
+    border: 5px solid lightgrey;
+    background-color: lightgrey;
+}
+
+
+#about-sec {
+    position: relative;
+    top: 50px;
+    width: px;
+    height: 200px;
+    background-color: white;
+    margin: 10px 5px;
+}
+
+
+#about-sec h3 {
+    margin: 10px 5px;
+    text-align: left;
+}
+
+
+#about-sec p {
+    position: relative;
+    float: right;
+    padding: 2%;
+    margin: 0 auto;
+}
+
+
+.timeline-cover {
+    position: relative;
+    top: 50px;
+    margin: 10px 5px;
+    width: px;
+    height: 400px;
+    background-color: white;
+}
+
+
+.timeline-cover p {
+    text-align: left;
+}
+
+
+#profile-img {
+    position: relative;
+    top: 10px;
+    width: 75px;
+    height: 75px;
+    background-image: url("https://via.placeholder.com/50");
+    background-size: cover;
+    margin: 10px;
+}
+
+
+#cover-photo {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-image: url("https://via.placeholder.com/507X250");
+    background-repeat: no-repeat;
+    border: 2px solid white;
 }
 
 
 
 
 
-.footer-list li {
-    display: inline;
-
-}
-
-
-#english-list {
-    list-style: none;
-}
